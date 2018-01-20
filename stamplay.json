@@ -1,0 +1,10 @@
+{
+  "appId": "getjoked",
+  "apiKey": "19f558e28eeb92d8098188b1e5d9f8bedf8b426212d87a25048bd064d539fdf9",
+  "public": "./",
+  "ignore": [
+    "stamplay.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}

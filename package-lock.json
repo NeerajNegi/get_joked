@@ -1,0 +1,11 @@
+{
+  "requires": true,
+  "lockfileVersion": 1,
+  "dependencies": {
+    "angular": {
+      "version": "1.6.8",
+      "resolved": "https://registry.npmjs.org/angular/-/angular-1.6.8.tgz",
+      "integrity": "sha512-9WErZIOw1Cu1V5Yxdvxz/6YpND8ntdP71fdPpufPFJvZodZXqCjQBYrHqEoMZreO5i84O3D/Jw/vepoFt68Azw=="
+    }
+  }
+}

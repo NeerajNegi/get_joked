@@ -1,0 +1,21 @@
+<link rel="stylesheet" type="text/css" href="getJokedStyle.css">
+<div class="container-fluid">
+	<div class="row">
+			<div class="col-lg-offset-2 col-md-offset-2 col-sm-offset-1 col-md-8 col-sm-10 col-xs-12 col-lg-8">
+			<h2 class="bg-success text-center">Here are your jokes.</h2>
+			<h6 class="bg-success text-center">P.S: May not be funny though.</h6>	
+			</div>
+	</div>
+	<div class="row" ng-repeat="value in joke">
+			<div class="col-lg-offset-2 col-md-offset-2 col-sm-offset-1 col-md-8 col-sm-10 col-xs-12 col-lg-8">
+				<h5 class="text-center bg-info">{{value.joke}}</h5>
+			
+			</div>
+		<div class="clearfix"></div>	
+	</div>
+	<div class="row" style="margin-top:10px;">
+		<center>
+			<a class="btn btn-primary" href="/">Try Again</a>
+		</center>
+	</div>
+</div>
